@@ -151,8 +151,29 @@ header {
     font-size: 14px;
     line-height: 17px;
 }
-
-footer {
+.pojelaniya {
+    width: 100%;
+    background-color: white;
+    padding: 20px 70px 50px 75px;
+    margin: 51px 0 47px;
+}
+.pojelaniya h4 {
+    width: 230px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0 auto 24px;
+}
+.pojelaniya form {
+    width: 500px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    margin: 0 auto 24px;
+}
+    footer {
     border-top: 3px solid black;
     margin-bottom: 85px;
 }
