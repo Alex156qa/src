@@ -11,12 +11,12 @@
             <img class="author-img" src="assets/avatar.png" alt="Аватар автора">
 
             <div class="author-info">
-                <span class="author-info_name">Мишустин Александр</span>
+                <span data-test-id="text__name__author" class="author-info_name">Мишустин Александр Олегович </span>
                 <span class="author-info_profession">QA Engineer</span>
             </div>
         </header>
 
-        <section class="facts" name="facts">
+        <section data-test-id="list__facts" class="facts" name="facts">
             <h4>Факты обо мне</h4>
 
             <ul class="facts-list" id="test2">
@@ -53,7 +53,7 @@
             </div>
         </section> 
 
-        <section class="experience">
+        <section data-test-id="table__experience"  class="experience">
             <h4>Опыт работы в ИТ</h4>
 
             <table class="experience-table">
@@ -86,8 +86,8 @@
     <h4>Пожелай мне чего нибудь</h4>
     <form>
         <h5 style="color: green;"> Напиши своё пожелание:
-        <input type="text" name="firstname" id="firstname">
-        Анонимно<input type="checkbox">
+        <input data-test-id="input__wishes" type="text" name="firstname" id="firstname">
+        Анонимно<input data-test-id="checkbox__anonymously" type="checkbox">
         <input type="button" value="Отправить" name="klik"></h5>
     </form>
 </section>
